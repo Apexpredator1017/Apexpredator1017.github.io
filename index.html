@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width,initial-scale=1.0">
+        <title>Persional CV</title>
+        <!--CUSTOM CSS-->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+     
+        <div class="print-area">
+            <div class="header">
+                <img src = "Tiaan_Snyman.jpg">
+                <div class = "header-text">
+                    <h1>Tiaan Snyman</h1>
+                    <p>3rd year Computer Science student</p>
+                </div>
+            </div>
+
+            <div class = "content">
+                <div class ="left-area">
+                    <div class="contact">
+                        <h4>CONTACT</h4>
+                        <h5>Phone</h5>
+                        <p>078 132 0524</p>
+                        <h5>Email</h5>
+                        <a href = "mailto: snyman.ti@gmail.com">snyman.ti@gmail.com</a>
+                    </div>
+                    <div class="skills">
+                        <h1>SKILLS</h1>
+                        <div class="bars">
+                            <div class="bar">
+                                <p>C++</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>JAVA</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>C#</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>HTML/CSS</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>Python</p>
+                                <span></span>
+                            </div>
+                            <div class="bar">
+                                <p>JavaScript</p>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <h1>FOLLOW ME</h1>
+                        <h4>Instagram</h4>
+                        <a href = "https://www.instagram.com/tiaan_1018/?hl=en">View instagram</a>
+                        <h4>Twitter</h4>
+                        <a href = "https://twitter.com/Tiaan09362988">View twitter</a>
+                    </div>
+                </div>
+                <div class ="right-area">
+                    <div class="about">
+                        <h1><span><i class = "far fa-user"></i></span>ABOUT ME</h1>
+                        <p>I am Tiaan Snyman. I am a third year student at the North-West University.I like coding and my preferd programming
+                            lanuages are Java and C#. Some of my hobbies are to create some programming projects and to watch some sport. Some
+                            of these sports are rugby, cricket and Formula 1. In my spear time I normally play video games with friends.
+                        </p>
+                    </div>
+                    <div class="education">
+                        <h1><span><i class="fas fa-book"></i></span>EDUCATION</h1>
+                    </div>
+                    <div class="edu-group">
+                        <h4>HOERSKOOL NOORDHEUWEL</h4>
+                        <span>2014/2018</span>
+                    </div>
+                    <div class="edu-group">
+                        <h4>NORTH-WETS UNIVERSITY</h4>
+                        <span>2019/Current</span>
+                        <p>3rd year Computer Science.</p>
+                    </div>
+                    <div class="edu-group">
+                        <h4>Supplemental Instruction training</h4>
+                        <span>2020</span>
+                    </div>
+                    <div class="edu-group">
+                        <h4>IBM</h4>
+                        <span>2021</span>
+                        <p>I have bages in the following courses: Agile Intro, GIT Source Control, 
+                            Web development and API introduction.
+                        </p>
+                    </div>
+                    <div class="edu-group">
+                            <h4>Udemy</h4>
+                            <span>2021</span>
+                            <p>I have completed to following courses: Build a Quiz app with HTML,CSS and JavaScript,
+                                Microsoft Azure for Beginners, Cloud Computing with Amazon Web Services(AWS) and 
+                                Learn Angular 4 from Scratch.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <button>Print CV</button>
+
+    <!--FONTAWESOME JS-->
+    <script> src = "all.min.js"</script>
+
+    <script>
+        var btn = document.querySelector("button");
+        btn.onclick = () =>{
+            window.print();
+        }
+    </script>
+</body>
+</html>
